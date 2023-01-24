@@ -1,0 +1,240 @@
+body {
+    background-color: white !important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Basically A Sans Serif', sans-serif;
+    font-weight: 500;
+
+    * {
+        background-color: rgba(0,0,0,0);
+        display: block;
+        //position: relative;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        transition: all 0.2s ease;
+        box-sizing: border-box;
+        text-align: left;
+
+        &::selection {
+            background-color: $black;
+            color: white;
+        }
+    }
+
+    title {
+        display: none;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 600;
+        line-height: 1.3;
+    }
+
+    p {
+        font-weight: 400;
+        color: #555;
+        line-height: 1.4;
+    }
+
+    strong {
+        display: inline;
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    form {
+        input {
+            font-family: 'Basically A Sans Serif', sans-serif;
+
+            &::placeholder {
+                font-family: 'Basically A Sans Serif', sans-serif;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    a {
+        display: inline;
+        margin: 0px;
+    }
+
+    ul {
+        list-style: none;
+    }
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-Thin.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-ExtraLight.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-Light.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-SemiBold.otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-ExtraBold.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Basically A Sans Serif;
+    src: url(../assets/bass/fonts/otf/BasicallyASansSerif-Black.otf);
+    font-weight: 900;
+}
+
+@media screen
+and (min-width: 992px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen
+and (min-width: 768px)
+and (max-width: 991px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 13px;
+    }
+
+    h5 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+}
+
+@media screen
+and (min-width: 480px)
+and (max-width: 767px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 11px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+}
+
+@media screen
+and (max-width: 479px) {
+    h1 {
+        font-size: 7vw;
+    }
+
+    h2 {
+        font-size: 6.5vw;
+    }
+
+    h3 {
+        font-size: 5.5vw;
+    }
+
+    h4 {
+        font-size: 3.75vw;
+    }
+
+    h5 {
+        font-size: 3.5vw;
+    }
+
+    p {
+        font-size: 4.5vw;
+        line-height: 1.4;
+    }
+}
